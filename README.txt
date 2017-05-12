@@ -58,3 +58,13 @@ y is how you want the data to be displayed as, you can define this in your templ
  </template>
 
 
+To create a collection:
+ ____________________
+ Users = new Mongo.Collection('users');
+ 
+ in terminal:
+ meteor mongo
+ 
+
+
+remove autopublish from packages because its insecure
