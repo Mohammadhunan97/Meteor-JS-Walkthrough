@@ -1,3 +1,5 @@
+
+
 # Meteor-JS-Walkthrough
 
 Meteor JS is a NodeJs framework built to easily create apps using MVC Structure: 
@@ -21,9 +23,11 @@ Setup:
  
  Html is templated as such:
  
- <template name="welcomemsg">
-  <h1> Hi, and welcome to our app </h1>
- </template>
+ template name="welcomemsg"
+ 
+     Hi, and welcome to our app
+     
+ /template
  
  Rendering the template: 
  
