@@ -11,6 +11,8 @@ Meteor uses live reloading so you don't have to refresh/restart your server ever
 
 Meteor uses collections to interact with database stuff on both the client and server easily and quickly
 
+Any file inside client folder will automatically be included in to our code. 
+
 
 
 To install: 
@@ -68,3 +70,7 @@ To create a collection:
 
 
 remove autopublish from packages because its insecure
+
+
+
+mkdir imports (these are not going to auto load in our build process) in the root level
